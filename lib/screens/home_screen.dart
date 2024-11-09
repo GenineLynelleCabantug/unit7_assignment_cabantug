@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:flutter_expanded_tile/flutter_expanded_tile.dart';
 
-// Wand class to represent the wand object
+
 class Wand {
   final String wood;
   final String core;
@@ -25,7 +25,7 @@ class Wand {
   }
 }
 
-// HpStaff class
+
 class HpStaff {
   final String name;
   final String gender;
@@ -58,7 +58,7 @@ class HpStaff {
   }
 }
 
-// ApiResponse class
+
 class ApiResponse {
   final List<HpStaff> content;
 
